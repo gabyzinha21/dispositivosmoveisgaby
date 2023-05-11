@@ -21,21 +21,33 @@ class Conversas extends StatelessWidget {
       ListTile(
         title: Text("amg"),
         subtitle: Text("você viu o que ela disse no grupo afff..."),
-        leading: Icon(
-          Icons.account_circle,
-          size: 48,
+        leading: CircleAvatar(
+          backgroundImage: NetworkImage(
+            "https://images.unsplash.com/photo-1504203772830-87fba72385ee?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
+          ),
         ),
         trailing: Text("11:30"),
       ),
       ListTile(
         title: Text("grupo da familia"),
+        subtitle: Row(
+          children: [
+            Icon(Icons.done_all, 
+        color: Colors.green,
+            )
+        ],
+        ),
+      
         subtitle: Text("bom diaaa familia maravilhosa <3"),
-        leading: Icon(
-          Icons.account_circle,
-          size: 48,
+        leading: CircleAvatar(
+          backgroundImage: NetworkImage(
+            "https://images.unsplash.com/photo-1511895426328-dc8714191300?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+          ),
         ),
         trailing: Text("23:49"),
       ),
     ]);
   }
 }
+
+ 

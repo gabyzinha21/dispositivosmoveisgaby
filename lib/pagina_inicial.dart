@@ -1,8 +1,8 @@
 // ignore_for_file: prefer_const_constructors
 
 import 'package:flutter/material.dart';
-import 'package:meuapp/chamadas.dart';
-import 'package:meuapp/status.dart';
+import 'chamadas.dart';
+import 'status.dart';
 import 'conversas.dart';
 
 class PaginaInicial extends StatelessWidget {
